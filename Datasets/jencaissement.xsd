@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="jencaissement" targetNamespace="http://tempuri.org/jencaissement.xsd" xmlns:mstns="http://tempuri.org/jencaissement.xsd" xmlns="http://tempuri.org/jencaissement.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="jencaissement" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="jencaissement" msprop:Generator_UserDSName="jencaissement">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="encaissement" msprop:Generator_TableClassName="encaissementDataTable" msprop:Generator_TableVarName="tableencaissement" msprop:Generator_TablePropName="encaissement" msprop:Generator_RowDeletingName="encaissementRowDeleting" msprop:Generator_UserTableName="encaissement" msprop:Generator_RowChangingName="encaissementRowChanging" msprop:Generator_RowEvHandlerName="encaissementRowChangeEventHandler" msprop:Generator_RowDeletedName="encaissementRowDeleted" msprop:Generator_RowEvArgName="encaissementRowChangeEvent" msprop:Generator_RowChangedName="encaissementRowChanged" msprop:Generator_RowClassName="encaissementRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="encounter_nr" msprop:Generator_ColumnVarNameInTable="columnencounter_nr" msprop:Generator_ColumnPropNameInRow="encounter_nr" msprop:Generator_ColumnPropNameInTable="encounter_nrColumn" msprop:Generator_UserColumnName="encounter_nr" type="xs:int" minOccurs="0" />
+              <xs:element name="pid" msprop:Generator_ColumnVarNameInTable="columnpid" msprop:Generator_ColumnPropNameInRow="pid" msprop:Generator_ColumnPropNameInTable="pidColumn" msprop:Generator_UserColumnName="pid" type="xs:int" minOccurs="0" />
+              <xs:element name="name_last" msprop:Generator_ColumnVarNameInTable="columnname_last" msprop:Generator_ColumnPropNameInRow="name_last" msprop:Generator_ColumnPropNameInTable="name_lastColumn" msprop:Generator_UserColumnName="name_last" type="xs:string" minOccurs="0" />
+              <xs:element name="name_first" msprop:Generator_ColumnVarNameInTable="columnname_first" msprop:Generator_ColumnPropNameInRow="name_first" msprop:Generator_ColumnPropNameInTable="name_firstColumn" msprop:Generator_UserColumnName="name_first" type="xs:string" minOccurs="0" />
+              <xs:element name="receipt_no" msprop:Generator_ColumnVarNameInTable="columnreceipt_no" msprop:Generator_ColumnPropNameInRow="receipt_no" msprop:Generator_ColumnPropNameInTable="receipt_noColumn" msprop:Generator_UserColumnName="receipt_no" type="xs:int" minOccurs="0" />
+              <xs:element name="typepaiement" msprop:Generator_ColumnVarNameInTable="columntypepaiement" msprop:Generator_ColumnPropNameInRow="typepaiement" msprop:Generator_ColumnPropNameInTable="typepaiementColumn" msprop:Generator_UserColumnName="typepaiement" type="xs:string" minOccurs="0" />
+              <xs:element name="montantfacture" msprop:Generator_ColumnVarNameInTable="columnmontantfacture" msprop:Generator_ColumnPropNameInRow="montantfacture" msprop:Generator_ColumnPropNameInTable="montantfactureColumn" msprop:Generator_UserColumnName="montantfacture" type="xs:double" minOccurs="0" />
+              <xs:element name="montantpaye" msprop:Generator_ColumnVarNameInTable="columnmontantpaye" msprop:Generator_ColumnPropNameInRow="montantpaye" msprop:Generator_ColumnPropNameInTable="montantpayeColumn" msprop:Generator_UserColumnName="montantpaye" type="xs:double" minOccurs="0" />
+              <xs:element name="montantcredit" msprop:Generator_ColumnVarNameInTable="columnmontantcredit" msprop:Generator_ColumnPropNameInRow="montantcredit" msprop:Generator_ColumnPropNameInTable="montantcreditColumn" msprop:Generator_UserColumnName="montantcredit" type="xs:double" minOccurs="0" />
+              <xs:element name="encaisseur" msprop:Generator_ColumnVarNameInTable="columnencaisseur" msprop:Generator_ColumnPropNameInRow="encaisseur" msprop:Generator_ColumnPropNameInTable="encaisseurColumn" msprop:Generator_UserColumnName="encaisseur" type="xs:string" minOccurs="0" />
+              <xs:element name="date" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_ColumnPropNameInRow="_date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_UserColumnName="date" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
